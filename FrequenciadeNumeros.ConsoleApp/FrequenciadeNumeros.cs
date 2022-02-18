@@ -40,7 +40,7 @@ namespace FrequenciadeNumeros.ConsoleApp
             {
                 if(numerosrepetidos[i] == numerosarmazenados[i])
                 {
-
+                    puts
                 }
             }
             
