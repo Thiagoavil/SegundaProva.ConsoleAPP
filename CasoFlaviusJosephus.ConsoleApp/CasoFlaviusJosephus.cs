@@ -31,11 +31,13 @@ namespace CasoFlaviusJosephus.ConsoleApp
 
             pessoastotal = new int [numerodepesoas];
 
-            for(int i = 0;i < numerodepesoas; i++)
+            for(int i = 0;i < pessoastotal.Length; i++)
             {
-                pessoastotal = new int [i];
-                Console.WriteLine(pessoastotal[i]);
+                pessoastotal[i] = Convert.ToInt32(i);
+                
             }
+            
+
         }
     }
 }
