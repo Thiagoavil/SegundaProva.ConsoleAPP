@@ -38,12 +38,12 @@ namespace FrequenciadeNumeros.ConsoleApp
 
             foreach(int i in numerosarmazenados)
             {
-                if(numerosrepetidos[i] == numerosarmazenados[i]);
+                if(numerosrepetidos[i] == numerosarmazenados[i])
                 {
 
                 }
             }
-            a
+            
 
 
         }
