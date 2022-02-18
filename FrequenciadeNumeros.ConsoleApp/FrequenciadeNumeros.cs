@@ -43,7 +43,7 @@ namespace FrequenciadeNumeros.ConsoleApp
 
                 }
             }
-
+            a
 
 
         }
