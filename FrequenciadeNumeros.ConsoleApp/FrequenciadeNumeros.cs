@@ -10,6 +10,7 @@ namespace FrequenciadeNumeros.ConsoleApp
             int[] numerosarmazenados;
             int[] numerosrepetidos;
             int[] quantidadesrepetidas;
+            
 
 
             Console.WriteLine("Quantos numeros você vai digitar?");
@@ -17,6 +18,7 @@ namespace FrequenciadeNumeros.ConsoleApp
 
             Console.WriteLine("Digite os numeros");
             numerosarmazenados = new int[quantidadedenumeros];
+            numerosrepetidos = new int[quantidadedenumeros];
 
             #region recebendo os numeros
             for (int i = 0; i < numerosarmazenados.Length; i++)
@@ -26,9 +28,20 @@ namespace FrequenciadeNumeros.ConsoleApp
             #endregion
 
             Array.Sort(numerosarmazenados);
+
+
             for (int i = 0; i < numerosarmazenados.Length; i++)
             {
+               numerosrepetidos[i] = numerosarmazenados[i];
+            
+            }
 
+            foreach(int i in numerosarmazenados)
+            {
+                if(numerosrepetidos[i] == numerosarmazenados[i]);
+                {
+
+                }
             }
 
 
